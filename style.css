@@ -361,9 +361,9 @@ footer {
 }
 .footer-brand {}
 .footer-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
-.footer-logo img { height: 42px; background: transparent; }
+.footer-logo img { height: 54px; background: transparent; }
 .footer-logo-name {
-  font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 20px;
+  font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 24px;
   color: white; letter-spacing: -0.5px;
 }
 .footer-logo-name span { color: var(--blue-light); }
