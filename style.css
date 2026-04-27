@@ -477,15 +477,38 @@ footer {
   .contact-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
-  .hero { gap: 12px; padding: 110px 5% 48px; align-items: center; }
-  .hero-content { max-width: 62%; }
+  nav { height: 70px; padding: 0 5%; }
+  .nav-logo { gap: 8px; }
+  .nav-logo img { height: 38px; }
+  .nav-logo-text { font-size: 19px; }
+  .nav-cta { padding: 9px 16px; font-size: 13px; }
+  .hero {
+    display: block;
+    min-height: auto;
+    padding: 120px 5% 56px;
+  }
+  .hero-content { max-width: none; padding-right: 128px; }
   .hero-badge { font-size: 8px; padding: 5px 9px; letter-spacing: 1px; margin-bottom: 18px; }
   .hero h1 { font-size: clamp(30px, 9vw, 42px); letter-spacing: -1px; margin-bottom: 18px; }
   .hero p { font-size: 12px; line-height: 1.6; margin-bottom: 24px; }
-  .hero-btns { gap: 8px; }
-  .hero-btns .btn-primary, .hero-btns .btn-outline { padding: 10px 14px; font-size: 12px; }
-  .hero-visual { max-width: 38%; transform: translateX(-16px); }
-  .hero-logo-bg img { width: 165%; max-width: 300px; }
+  .hero-btns {
+    width: calc(100% + 128px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 26px;
+  }
+  .hero-btns .btn-primary, .hero-btns .btn-outline { padding: 12px 18px; font-size: 13px; }
+  .hero-visual {
+    position: absolute;
+    top: 210px;
+    right: 6%;
+    width: 112px;
+    max-width: none;
+    margin: 0;
+    transform: none;
+  }
+  .hero-logo-bg { width: 112px; height: 112px; }
+  .hero-logo-bg img { width: 190%; max-width: 230px; }
   .nav-links { display: none; }
   .stats-strip { flex-direction: column; gap: 24px; }
   .stat-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 16px; }
