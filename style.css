@@ -107,7 +107,7 @@ nav {
   width: clamp(300px, 30vw, 400px); height: clamp(300px, 30vw, 400px); background: var(--dark);
   border-radius: 36px; display: flex; align-items: center; justify-content: center;
   position: relative; overflow: hidden;
-  box-shadow: 0 28px 70px rgba(0,0,0,0.14);
+  box-shadow: none;
 }
 .hero-logo-bg::before {
   content: ''; position: absolute; inset: 0;
