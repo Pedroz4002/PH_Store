@@ -371,12 +371,12 @@ footer {
 .footer-desc { font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.7; max-width: 280px; }
 .footer-socials { display: flex; gap: 10px; margin-top: 20px; }
 .footer-social {
-  width: 36px; height: 36px; background: rgba(255,255,255,0.08);
+  width: 30px; height: 30px; background: rgba(255,255,255,0.08);
   border-radius: 8px; display: flex; align-items: center; justify-content: center;
   text-decoration: none; color: rgba(255,255,255,0.6); font-size: 14px;
   transition: background 0.2s, color 0.2s;
 }
-.footer-social svg { width: 18px; height: 18px; fill: currentColor; }
+.footer-social svg { width: 14px; height: 14px; fill: currentColor; }
 .footer-social:hover { background: var(--blue); color: white; }
 .footer-col h4 {
   font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 700;
