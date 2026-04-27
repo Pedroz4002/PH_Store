@@ -319,6 +319,22 @@ section { padding: 96px 6%; }
 /* PRODUCT DETAIL CARDS */
 .products-section { padding: 64px 6%; background: var(--white); }
 .products-section:nth-child(even) { background: var(--cream); }
+.service-dev-section {
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.service-dev-section .section-desc { margin: 0 auto; }
+.service-dev-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
 .prod-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
