@@ -487,18 +487,29 @@ footer {
     min-height: auto;
     padding: 120px 5% 56px;
   }
-  .hero-content { max-width: none; padding-right: 0; text-align: center; }
+  .hero-content { max-width: none; padding-right: 116px; text-align: left; }
   .hero-badge { font-size: 8px; padding: 5px 9px; letter-spacing: 1px; margin-bottom: 18px; }
   .hero h1 { font-size: clamp(30px, 9vw, 42px); letter-spacing: -1px; margin-bottom: 18px; }
   .hero p { font-size: 12px; line-height: 1.6; margin-bottom: 24px; }
   .hero-btns {
-    width: 100%;
+    width: calc(100% + 116px);
     gap: 10px;
     justify-content: center;
     margin-top: 26px;
   }
   .hero-btns .btn-primary, .hero-btns .btn-outline { padding: 12px 18px; font-size: 13px; }
-  .hero-visual { display: none; }
+  .hero-visual {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 6%;
+    width: 96px;
+    max-width: none;
+    margin: 0;
+    transform: none;
+  }
+  .hero-logo-bg { width: 96px; height: 96px; }
+  .hero-logo-bg img { width: 178%; max-width: 190px; }
   .hero-logo-bg { width: 112px; height: 112px; }
   .hero-logo-bg img { width: 190%; max-width: 230px; }
   .nav-links { display: none; }
