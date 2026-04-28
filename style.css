@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -377,6 +377,7 @@ section { padding: 96px 6%; }
   width: 100%; height: 100%; max-width: none; max-height: none;
   object-fit: cover; padding: 0; display: block;
   filter: none;
+  transform: scale(1.12);
   position: relative; z-index: 1;
 }
 .feat-badge {
@@ -506,7 +507,7 @@ section { padding: 96px 6%; }
 }
 .prod-card:hover { transform: translateY(-6px); box-shadow: 0 20px 48px rgba(26,92,204,0.1); }
 .prod-card-img {
-  height: 190px;
+  height: 210px;
   background: #f4f6f8 !important;
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
@@ -516,6 +517,7 @@ section { padding: 96px 6%; }
   width: 100%; height: 100%; max-width: none; max-height: none;
   object-fit: cover; padding: 0; display: block;
   filter: none;
+  transform: scale(1.18);
 }
 .prod-card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
 .prod-card-body h3 {
@@ -708,3 +710,6 @@ footer {
   .footer-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
 }
+
+
+
