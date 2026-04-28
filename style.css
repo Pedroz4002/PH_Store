@@ -165,19 +165,19 @@ body.mobile-menu-open .mobile-menu-toggle::after { transform: translateY(-7px) r
 .mobile-menu-links {
   list-style: none;
   display: grid;
-  gap: 8px;
+  gap: 7px;
 }
 .mobile-menu-links a {
   display: flex;
   align-items: center;
-  min-height: 42px;
-  padding: 10px 12px;
+  min-height: 38px;
+  padding: 8px 12px;
   border-radius: 8px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.06);
   color: rgba(244,247,251,0.78);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
 }
 .mobile-menu-links a:hover {
@@ -186,7 +186,7 @@ body.mobile-menu-open .mobile-menu-toggle::after { transform: translateY(-7px) r
   background: rgba(43,126,255,0.12);
 }
 .mobile-menu-contact {
-  margin-top: 20px;
+  margin-top: 8px;
   display: flex;
   flex-direction: column;
   gap: 10px;
