@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ServiÃ§os â€” PH Store</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<nav>
+  <button class="mobile-menu-toggle" type="button" aria-label="Abrir menu" data-mobile-menu-open><span></span></button>
+<a class="nav-logo" href="../../index.html">
+    <img src="../../assets/logo.png" alt="PH Store">
+    <span class="nav-logo-text">PH <span>Store</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../../index.html">Home</a></li>
+    <li><a href="../../sobre/index.html">Sobre</a></li>
+    <li><a href="../index.html" class="active">Produtos</a></li>
+    <li><a href="../../contato/index.html">Contato</a></li>
+  </ul>
+  <a class="nav-cta" href="../../contato/index.html">Fale conosco</a>
+</nav>
+<div class="mobile-menu-overlay" data-mobile-menu-close></div>
+<aside class="mobile-drawer" aria-label="Menu mobile">
+  <div class="mobile-drawer-head">
+    <a class="mobile-drawer-logo" href="../../index.html">
+      <img src="../../assets/logo.png" alt="PH Store">
+      <span>PH <span>Store</span></span>
+    </a>
+    <button class="mobile-menu-close" type="button" aria-label="Fechar menu" data-mobile-menu-close>&times;</button>
+  </div>
+  <div class="mobile-menu-section">
+    <div class="mobile-menu-title">Menu</div>
+    <ul class="mobile-menu-links">
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../sobre/index.html">Sobre</a></li>
+      <li><a href="../../produtos/index.html">Produtos</a></li>
+      <li><a href="../../contato/index.html">Contato</a></li>
+    </ul>
+    <div class="mobile-menu-contact">
+      <p class="mobile-menu-note">Produtos para sua casa, negÃ³cio e rotina.</p>
+      <a class="mobile-menu-whatsapp" href="https://wa.me/5583998465279" target="_blank">Fale no WhatsApp</a>
+      <div class="mobile-menu-location">PH Store â€” Para&iacute;ba</div>
+    </div>
+  </div></aside>
+
+<div class="page-hero">
+  <div class="section-tag">ServiÃ§os</div>
+  <h1>ServiÃ§os<br><em>em breve.</em></h1>
+  <p>Estamos preparando novos serviÃ§os e materiais digitais para atender vocÃª melhor.</p>
+</div>
+
+<section class="products-section service-dev-section">
+  <div class="section-tag">ServiÃ§os</div>
+  <h2 class="section-title">Em <em>desenvolvimento</em></h2>
+  <p class="section-desc">Essa Ã¡rea serÃ¡ atualizada assim que os serviÃ§os estiverem disponÃ­veis.</p>
+  <div class="service-dev-actions">
+    <a class="btn-primary" href="../index.html">Voltar ao catÃ¡logo</a>
+    <a class="btn-outline" href="../../contato/index.html">Fale conosco</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo"><img src="../../assets/logo.png" alt="PH"><span class="footer-logo-name">PH <span>Store</span></span></div>
+      <div class="footer-tagline">Bens & ServiÃ§os</div>
+      <p class="footer-desc">Produtos fÃ­sicos, digitais e serviÃ§os com excelÃªncia e propÃ³sito.</p>
+    </div>
+    <div class="footer-col"><h4>Categorias</h4><ul>
+      <li><a href="../index.html#panelas">Panelas</a></li>
+      <li><a href="index.html">ServiÃ§os</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Empresa</h4><ul>
+      <li><a href="../../sobre/index.html">Sobre a PH</a></li>
+      <li><a href="../../contato/index.html">Contato</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Contato</h4><ul>
+      <li><a href="https://wa.me/5583998465279">+55 83 99846-5279</a></li>
+      <li><a href="#">ParaÃ­ba</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">Â© 2025 PH Store. Todos os direitos reservados.</span>
+    <span class="footer-credit">PH â€” Deus acima de tudo.</span>
+  </div>
+</footer>
+<script>
+  document.addEventListener('click', function (event) {
+    const openButton = event.target.closest('[data-mobile-menu-open]');
+    const closeButton = event.target.closest('[data-mobile-menu-close]');
+    const drawerLink = event.target.closest('.mobile-drawer a');
+
+    if (openButton) document.body.classList.add('mobile-menu-open');
+    if (closeButton || drawerLink) document.body.classList.remove('mobile-menu-open');
+  });
+</script>
+</body>
+</html>
+
+
